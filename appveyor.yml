@@ -13,7 +13,7 @@ environment:
 
 install:
   - set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
-  - gem install bundler
+  - gem install bundler -v=1.17.3
   - bundle install --path=vendor/bundle --retry=3 --jobs=3
 
 cache:
